@@ -1,0 +1,25 @@
+header {
+  & h2 {
+    color: $cyan;
+  }
+  & h3 {
+    color: $yellow;
+  }
+  & p {
+    line-height: 2em;
+    font-weight: 700;
+  }
+}
+
+.month_price {
+  font-size: 3em;
+}
+
+.per_month {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.foot {
+  color: $grayBlue;
+  margin: 0px 10px;
+}
