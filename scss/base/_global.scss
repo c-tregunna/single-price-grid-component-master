@@ -16,7 +16,7 @@ main {
     "why";
   box-shadow: -6px 0px 8px darken($gray, 15%);
   @include medq($break-m) {
-    width: 70%;
+    width: 50%;
     max-width: 1000px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
