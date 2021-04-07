@@ -19,7 +19,6 @@ main {
     width: 70%;
     max-width: 1000px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     grid-template-areas:
       "head head"
       "pricing why";
@@ -32,7 +31,7 @@ header,
   padding: 20px 30px;
   @include flex($dir: column, $align: flex-start);
   @include medq($break-m) {
-    padding: 40px;
+    padding: 30px;
   }
 }
 
